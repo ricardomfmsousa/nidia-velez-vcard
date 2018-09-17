@@ -1,0 +1,19 @@
+{
+  "name": "nidia-velez-vcard",
+  "version": "1.0.0",
+  "description": "A simple vCard based on Kards template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardomfmsousa/nidia-velez-vcard.git"
+  },
+  "author": "Ricardo Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardomfmsousa/nidia-velez-vcard/issues"
+  },
+  "homepage": "https://github.com/ricardomfmsousa/nidia-velez-vcard#readme"
+}
