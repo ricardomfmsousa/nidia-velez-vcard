@@ -1193,11 +1193,10 @@ header .row {
 header .top-bar {
   display: block;
   background: #000000;
-  box-shadow: 0 0 15px 0px black;
-  min-width: 80px;
-  height: 70px;
+  min-width: 60px;
+  height: 60px;
   position: absolute;
-  left: 90px;
+  left: 0;
   top: 0;
 }
 header .logo {
@@ -1229,8 +1228,7 @@ header .logo a {
   float: left;
   width: 40px;
   height: 40px;
-  margin-left: 20px;
-  margin-top: 13px;
+  margin: 10px;
   display: block;
   position: relative;
 }
@@ -1364,32 +1362,6 @@ header .logo a {
 .main-navigation li.current > a {
   background: none;
   color: #ff0077;
-}
-
-/**
- * responsive:
- * header styles
- * --------------------------------------------------------------- 
- */
-@media only screen and (max-width: 1024px) {
-  header .top-bar {
-    left: 60px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  header .top-bar {
-    left: 50px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  header .top-bar {
-    left: 35px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  header .top-bar {
-    left: 25px;
-  }
 }
 
 /** 
@@ -2689,7 +2661,7 @@ footer .copyright span:last-child::after {
 #go-top {
   position: fixed;
   bottom: 0;
-  right: 0;
+  left: 0;
   z-index: 600;
   display: none;
 }
@@ -2697,14 +2669,16 @@ footer .copyright span:last-child::after {
   text-decoration: none;
   border: 0 none;
   display: block;
-  height: 6.6rem;
+  height: 6rem;
   width: 6rem;
   line-height: 6.6rem;
   text-align: center;
-  background: #cc005f;
+  background: #000000;
   color: #ffffff;
+  opacity: 0.2;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2716,7 +2690,7 @@ footer .copyright span:last-child::after {
   line-height: inherit;
 }
 #go-top a:hover {
-  background: #000000;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=main.css.map */
