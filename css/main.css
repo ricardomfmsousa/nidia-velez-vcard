@@ -1658,6 +1658,13 @@ header .logo a {
   font-size: 1.5rem;
   line-height: 1;
 }
+.about-content .info-list li span.protected-email {
+  cursor: pointer;
+  font-style: italic;
+}
+.about-content .info-list li span.protected-email:hover {
+  text-decoration: underline;
+}
 .about-content .skill-bars {
   margin-top: 6rem;
 }
@@ -2469,7 +2476,6 @@ header .logo a {
   height: 6.6rem;
   line-height: 6.6rem;
   padding: 0 3rem;
-  margin-top: 4.8rem;
   width: 100%;
   background: #ff0077;
   color: #ffffff;
