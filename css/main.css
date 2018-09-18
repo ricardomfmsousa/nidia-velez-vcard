@@ -1193,7 +1193,9 @@ header .row {
 header .top-bar {
   display: block;
   background: #000000;
-  min-height: 66px;
+  box-shadow: 0 0 15px 0px black;
+  min-width: 80px;
+  height: 70px;
   position: absolute;
   left: 90px;
   top: 0;
@@ -1289,6 +1291,10 @@ header .logo a {
 }
 
 /* is clicked */
+.menu-toggle.is-clicked {
+  width: 200px;
+  display: block;
+}
 .menu-toggle.is-clicked span {
   background-color: rgba(255, 0, 119, 0);
 }
@@ -1328,10 +1334,12 @@ header .logo a {
 /* dropdown nav */
 .main-navigation {
   background: #000000;
-  padding: 24px 30px 42px;
+  padding: 30px;
   margin: 0;
   width: 100%;
+  min-width: 220px;
   height: auto;
+  max-height: 275px;
   clear: both;
   display: none;
 }
