@@ -1,4 +1,4 @@
-# A simple vCard based on Kards template
+# A simple vCard quick prototype based on Kards template
 
 > KARDS is a modern and clean personal vCard website template. It has many cool features found
 > in premium templates. It has timeline items, stats section, skillbars, working ajax form,
@@ -7,7 +7,7 @@
 > crisp and sharp on any device. Kards is the ideal template for creating digital personal resume
 > and portfolio website.
 
-## SOURCES AND CREDITS:
+## Sources and credits:
 
 ### Fonts:
 
@@ -39,3 +39,7 @@
 - Masonry (http://masonry.desandro.com)
 - pace js (http://github.hubspot.com/pace/)
 - owl carousel (http://www.owlgraphic.com/owlcarousel/)
+
+## Mobile screenshot
+
+![example](images/example.jpg)
