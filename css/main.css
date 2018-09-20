@@ -1418,7 +1418,7 @@ header .logo a {
   font-family: 'poppins-bold', sans-serif;
   font-size: 2.3rem;
   line-height: 1.565;
-  margin-bottom: 0;
+  margin-bottom: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
@@ -1435,19 +1435,12 @@ header .logo a {
 .intro-content .intro-position span {
   display: inline-block;
 }
-.intro-content .intro-position span::after {
-  content: '|';
-  text-align: center;
-  display: inline-block;
-  padding: 0 8px 0 14px;
-  color: rgba(255, 255, 255, 0.3);
-}
-.intro-content .intro-position span:first-child::before {
-  content: '|';
-  text-align: center;
-  display: inline-block;
-  padding: 0 14px 0 8px;
-  color: rgba(255, 255, 255, 0.3);
+.intro-content .intro-position span.separator {
+  width: 1px;
+  margin: -4px 5px;
+  background: #6b6b6b;
+  height: 18px;
+  padding: 0px;
 }
 .intro-content .button {
   color: #ffffff !important;
